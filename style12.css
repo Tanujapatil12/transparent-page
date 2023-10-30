@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url("https://wallpaperaccess.com/full/1204217.jpg") */
+    /* background: url("https://w0.peakpx.com/wallpaper/42/267/HD-wallpaper-nature-scenery-scenery-nature.jpg") */
+    background: url("https://www.eventstodayz.com/wp-content/uploads/2018/04/hd-nature-wallpaper.jpg")
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+    /* login form  */
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+.form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    margin: 50px;
+}
+/* boxes */
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+/* .box:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
